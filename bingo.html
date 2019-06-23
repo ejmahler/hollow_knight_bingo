@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Hollow Knight Bingo</title>
+	</head>
+	<style>
+		body {
+			background-color: #111111;
+			color:	#eeeeee;
+		}
+		.bingo-table {
+			background-color: #222222;
+			border-collapse: collapse;
+			font-size: 13pt;
+			font-style: sans-serif;
+			text-align: center;
+			position: relative;
+		}
+		.bingo-cell {
+			position: relative;
+			width: 18vmin;
+			height: 18vmin;
+			border-color: #111111;
+			border-style: solid;
+			border-width: 0.5vmin;
+		}
+		.bingo-status {
+			position:absolute;
+			top: 0;
+			bottom: 0;
+		}
+		.bingo-status.left {
+			left: 0;
+			right: 50%;
+			background-color: #252222;
+		}
+		.bingo-status.right {
+			left: 50%;
+			right: 0;
+			background-color: #222522;
+		}
+		.bingo-status.left:hover {
+			background-color: #312222;
+		}
+		.bingo-status.right:hover {
+			background-color: #222822;
+		}
+		.bingo-status.left.complete {
+			background-color: #660000;
+		}
+		.bingo-status.right.complete {
+			background-color: #006600;
+		}
+		.bingo-content {
+			position: absolute;
+			z-index: 1;
+			transform: translate(-50%, -50%);
+			pointer-events: none;
+		}
+	</style>
+	<body>
+	<table class="bingo-table">
+		<thead></thead>
+		<tbody>
+			<tr class="bingo-row row1">
+				<td class="bingo-cell col1">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col2">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col3">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col4">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col5">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+			</tr>
+			<tr class="bingo-row row2">
+				<td class="bingo-cell col1">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col2">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col3">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col4">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col5">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+			</tr>
+			<tr class="bingo-row row3">
+				<td class="bingo-cell col1">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col2">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col3">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col4">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col5">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+			</tr>
+			<tr class="bingo-row row4">
+				<td class="bingo-cell col1">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col2">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col3">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col4">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col5">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+			</tr>
+			<tr class="bingo-row row5">
+				<td class="bingo-cell col1">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col2">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col3">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col4">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+				<td class="bingo-cell col5">
+					<span class="bingo-content">Bingo Cell</span>
+					<div class="bingo-status left"></div>
+					<div class="bingo-status right"></div>
+				</td>
+			</tr>
+		</tbody>
+	</body>
+	<script>
+		document.querySelectorAll('.bingo-status').forEach(function(element) {
+			element.addEventListener('click', function (event) {
+				element.classList.toggle('complete');
+			});
+		});
+	</script>
+</html>
